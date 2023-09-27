@@ -1,0 +1,11 @@
+编译MG1200AC uboot(未刷机测试):
+
+cd ~
+git clone https://github.com/syb999/bootcode_rtl8197f.git
+cd bootcode_rtl8197f
+make menuconfig
+读取配置:def-MG1200AC-config
+make V=99
+输出文件在./boot/Output目录
+
+
